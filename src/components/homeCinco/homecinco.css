@@ -1,0 +1,46 @@
+.homeCinco {
+    max-width: 1000px;
+    margin: auto;
+}
+.textoHomeCinco h1 {
+    text-align: center;
+    color: #fff;
+}
+.texto2HomeCinco p {
+    color: #fff;
+    max-width: 25em;
+    padding-bottom: 5dvh;
+    border-bottom: 1dvh solid #38F8D4;
+    margin-left: 2dvw;
+    margin-right: 2dvw;
+}
+.texto2HomeCinco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homeCincoClientes h1 {
+    text-align: center;
+    color: #fff;
+}
+.homeCincoClientes p {
+    color: #fff;
+    max-width: 20em;
+    text-align: center;
+}
+.homeCincoClientes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 7dvh;
+    margin-bottom: 5dvh;
+}
+.animacaoHomeCincoPai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.animacaoHomeCinco {
+    max-width: 30%;
+}

@@ -1,0 +1,17 @@
+.headerObrigadoM {
+    display: none;
+}
+.obrigadoPai    {
+    background-color: #080C1C;
+
+}
+
+@media screen and (max-width: 768px) { 
+    .headerObrigado {
+        display: none;
+    }
+    .headerObrigadoM {
+        display: block;
+    }
+    }
+    

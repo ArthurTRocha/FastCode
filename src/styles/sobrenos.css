@@ -1,0 +1,16 @@
+.headerMSN {
+    display: none;
+}
+.sobreNos    {
+    background-color: #080C1C;
+}
+
+@media screen and (max-width: 768px) { 
+    .headerSN {
+        display: none;
+    }
+    .headerMSN {
+        display: block;
+    }
+    }
+    

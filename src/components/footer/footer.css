@@ -1,0 +1,51 @@
+.footer {
+    min-height: 200px;
+    background: linear-gradient(to bottom, #43EA80, #38F8D4);
+    position: relative;
+}
+.logoFooter {
+    min-width: 13vw;
+    min-height: 80px;
+    background-color: #000;
+    max-width: 200px;
+    max-height: 130px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2vh;
+    z-index: 1;
+}
+
+.tracoFooterUm img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+.tracoFooterUm {
+    max-width: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.tracoFooterDois img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+.tracoFooterDois {
+    max-width: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.direitosFooter p {
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    width: 100%;
+    color: rgba(8, 12, 28, 0.3);
+}

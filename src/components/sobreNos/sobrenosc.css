@@ -1,0 +1,53 @@
+.sobreNosC {
+    position: relative;
+    margin: auto;
+    max-width: 1000px;
+    top: 50px;
+}
+.textosSobreNosc h1 {
+    color: #43EA80;
+    text-align: center;
+    font-size: xx-large;
+}
+.textosSobreNosc p {
+    color: #fff;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    font-size: 2.1ch;
+}
+.textosSobreNosc1 p{
+    text-align: left;
+    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 180px;
+    margin-left: 5px;
+    font-size: 2.1ch;
+}
+.carouselSobreNosM {
+    display: none;
+}
+@media screen and (max-width: 768px) { 
+    .carouselSobreNosM {
+        display: block;
+    }
+    .carouselSobreNos {
+        display: none;
+    }
+}
+@media screen and (max-height: 1024px) and (min-height: 1024px) {
+    .sobreNosC {
+        top: 80px;
+        min-height: 900px;
+    }
+}
+@media screen and (max-height: 1024px) and (min-height: 1024px) and (min-width: 246px) and (max-width: 310px) {
+    .sobreNosC {
+        top: 80px;
+        min-height: 900px;
+    }
+    .textosSobreNosc1 p {     
+        min-height: 30dvh;
+    }
+}

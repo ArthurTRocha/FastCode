@@ -1,0 +1,29 @@
+.carouselServicos {
+    max-width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .card1ServicoDoisC,
+  .card2ServicoDoisC,
+  .card3ServicoDoisC {
+    display: flex;
+    border-radius: 5vh;
+    position: relative;
+
+  }
+  
+  .card1ServicoDoisC p,
+  .card2ServicoDoisC p,
+  .card3ServicoDoisC p {
+    color: #fff;
+    padding: 5px;
+    text-shadow: -4px 6px 2px #38F8D4;
+  }
+  
+  .IoMdInformationCircleOutlineC {
+    font-size: 4ch;
+    color: #fff;
+  }
+  

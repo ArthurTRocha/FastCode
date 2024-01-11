@@ -1,0 +1,146 @@
+.homeOito {
+    margin: auto;
+    max-width: 1000px; 
+}
+.textohomeOito h1{
+    text-align: center;
+    color: #fff;
+}
+.imageHomeOitoM img {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+.imageHomeOitoM {
+    display: none;
+    max-width: 70%;
+} 
+.imageHomeOito img {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+.imageHomeOito {
+    max-width: 70%;
+}
+.ajustatelaHomeOito {
+        display: flex;
+        gap: 200px; 
+        align-items: center;
+        justify-content: center;
+}
+.nomeHomeOito input{
+    background-color: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    margin-bottom: 5dvh;
+    min-width: 200px;
+    color: #fff;
+}
+.emailHomeOito input {
+    background-color: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    margin-bottom: 5dvh;
+    min-width: 200px;
+    color: #fff;
+}
+.mensagemHomeOito input {
+    background-color: #fff;
+    min-height: 7rem;
+    min-width: 20rem;
+    border: none;
+    border-radius: 2vh;
+    margin-top: 3dvh;
+    margin-bottom: 3dvh;
+    margin-right: 10px;
+}
+.telefoneHomeOito {
+    margin-bottom: 5dvh;
+}
+.textoInputHome label{
+    display: flex;
+}
+.textoInputHome p {
+    margin-left: 2%;
+    color: #43EA80;
+}
+.textoInputHome a {
+    color: #43EA80;
+    font-weight: bold;
+    text-decoration: none;
+}
+.textoInputHome input {
+    cursor: pointer;
+}
+.IconHomeOito {
+    width: 40%;
+    display: flex;
+    margin-bottom: 20px;
+}
+.IconHomeOito p {
+    color: #43EA80;
+    margin-left: 15px;
+}
+.IconHomeOito span {
+    color: #fff;
+}
+.InconeOito {
+    color: #fff;
+}
+.buttonHomeOite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttonEnvioHomeOito {
+    padding: 0.5vw 4vw 0.5vw 4vw;
+    border-radius: 5vw;
+    background: linear-gradient(to top, #43EA80, #38F8D4); 
+    color: #000;
+    font-weight: bold;
+    font-size: 2em;
+    border: none;
+    margin-top: 3dvh;
+    cursor: pointer;
+}
+.marginHomeOito {
+    border-bottom: 5px solid #43EA80;
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .imageHomeOitoM {
+        display: block;
+    }
+    .imageHomeOito {
+        display: none;
+    }
+    .ajustatelaHomeOito {
+        flex-direction: column; 
+        gap: 20px; 
+    }
+
+}
+@media screen and (max-width: 316px) { 
+.mensagemHomeOito input {
+    background-color: #fff;
+    min-height: 7rem;
+    min-width: 15rem;
+    border: none;
+    border-radius: 2vh;
+    margin-top: 3dvh;
+    margin-bottom: 3dvh;
+    margin-right: 0;
+}
+}
+@media screen and (max-width: 245px) {  
+    .mensagemHomeOito input {
+        min-width: 3rem;
+    }
+
+}

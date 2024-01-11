@@ -1,0 +1,71 @@
+.homeTres {
+    margin: auto;
+    max-width: 1000px;
+    position: relative;
+    margin-top: 5em;
+}
+.frontEndHomeTres h1 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.imagemCSShomeTres img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.imagemCSShomeTres {
+    width: 20%;
+    position: absolute;
+    left: 5px;
+}
+.homeTresImg {
+    height: auto;
+    max-width: 30%;
+}
+.homeTresImgPai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hometresdescricaofront {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hometresdescricaofront p {
+    text-align: left;
+    color: #fff;
+    margin-top: 1rem;
+    max-width: 25em;
+    margin-top: 2em;
+    padding-left: 50px;
+    border-left: 0.25em solid #38F8D4;
+    margin-left: 10px;
+}
+.homeTresPadding {
+    padding-bottom: 130px;
+}
+.imageHtmlHomeTres img{
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+.imageHtmlHomeTres {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 20%;
+}
+
+
+@media screen and (max-width: 160px) { 
+    .hometresdescricaofront p {
+        border: none;
+        margin-left: 0; /* Remover a margem superior */
+        padding-left: 0; /* Remover o preenchimento à esquerda */
+        text-align: center;
+    }
+  
+    }

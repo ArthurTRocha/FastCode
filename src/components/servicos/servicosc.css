@@ -1,0 +1,67 @@
+.servicosC {
+    margin: auto;
+   max-width: 1000px;
+   position: relative;
+}
+.textoServicoCh1 {
+    text-align: center;
+    width: 100%;
+}
+.textoServicoC {
+    max-width: 850px;
+}
+.textoServicoCh1 h1 {
+    font-size: 7ch;
+    background-image: linear-gradient(to bottom, #43EA80, #38F8D4);
+    color: transparent;
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+    padding-top: 1ch;
+}
+.servicosCcard {
+    border: 1px solid #43EA80;
+    border-radius: 2vh;
+    padding: 1rem;
+    margin: 10px;
+    max-width: 100%;
+    min-width: 70%;
+    min-height: 10ch;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    position: absolute;
+    bottom: -35px;
+    left: -20px;
+    z-index: 0;
+    margin-left: 5dvw;
+}
+.servicosCdescricao {
+    font-size: 2ch;
+    color: #F2F2EC;
+    text-align: left;
+    margin-left: 5dvw;
+    text-shadow: -15px 5px 4px #38F8D4;
+
+}
+.cardTextoServicoC {
+    margin-top: 50px;
+}
+
+@media screen and (max-width:437px) {
+    .servicosCcard {
+        display: none;
+    }
+}
+@media screen and (min-width:438px) and (max-width:561px) {
+    .servicosCcard {
+        bottom: -18px;
+    }
+ }
+ @media screen and (min-width:400px) and (max-width:768px) { 
+    .textoServicoCh1 h1 {
+        padding-top: 60px;
+ }
+}
+
+

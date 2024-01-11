@@ -1,0 +1,103 @@
+.faq {
+    background-color: #080C1C;
+}
+
+
+.faqinicio {
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.faqtitulo {
+
+    font-size: 7ch;
+    background-image: linear-gradient(to bottom, #43EA80, #38F8D4);
+    color: transparent;
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+    padding-top: 1ch;
+
+
+
+}
+
+.faqdescricao {
+    font-size: 3ch;
+    color: #F2F2EC;
+    padding-top: 2ch;
+}
+
+.faqcards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10ch;
+}
+
+
+.faqcard
+ { 
+    max-height: 70%;
+background-color: #1F3A49; /* Cor preta */
+color: #fff; /* Cor do texto, pode ser branca ou outra que tenha bom contraste com o preto */
+padding: 20px; /* Espaçamento interno para o conteúdo dentro do card */
+border-radius: 10px; /* Borda arredondada, ajuste conforme necessário */
+text-align: center; /* Centraliza o conteúdo */
+width: 70%;
+position: relative;
+margin-top: 8vh;
+
+}
+
+
+.faqcard::before
+ {
+    content: '>'; /* Adiciona conteúdo vazio ao pseudo-elemento */
+    font-size: 5ch;
+    font-weight: 800;
+    line-height: 1.25em;
+    color: black;
+    display: block; /* Torna o pseudo-elemento um bloco */
+    width: 4ch; /* Largura do quadrado verde */
+    height: 2.5ch; /* Altura do quadrado verde */
+    background: linear-gradient(to bottom, #43EA80, #38F8D4);
+    border-radius: 2vh; /* Borda arredondada do quadrado verde, ajuste conforme necessário */
+    position: absolute; /* Posiciona absolutamente em relação ao card */
+    left: 10px; /* Posiciona o quadrado verde à esquerda do card */
+    top: 40%; /* Posiciona o quadrado verde no centro vertical do card */
+    transform: translateY(-50%) rotate(0deg); /* Inicialmente, sem rotação */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave na rotação */
+    z-index: 1;
+  }
+
+  .faqcard.opened::before {
+    transform: translateY(-50%) rotate(90deg);
+  }
+  
+
+
+  .faqcard::after
+  {
+    content: ''; /* Adiciona conteúdo vazio ao pseudo-elemento */
+    display: block; /* Torna o pseudo-elemento um bloco */
+    width: 10ch; /* Largura do segundo quadrado verde */
+    height: 6ch; /* Altura do segundo quadrado verde */
+    background-color: #43ea8070; /* Cor verde do segundo quadrado */
+    border-radius: 2vh; /* Borda arredondada do segundo quadrado verde, ajuste conforme necessário */
+    position: absolute; /* Posiciona absolutamente em relação ao card */
+    left: 0px; /* Posiciona o segundo quadrado verde à direita do card */
+    top: 50%; /* Posiciona o segundo quadrado verde no centro vertical do card */
+    transform: translateY(-50%); /* Rotação de 90 graus para baixo quando aberto */
+    z-index: 0;
+  }
+
+
+  .faqcardconteudo {
+    padding-left: 75px;
+  }
+
+  .faqcarddescricao {
+    padding-left: 80px;
+  }

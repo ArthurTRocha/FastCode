@@ -1,0 +1,124 @@
+.homeSete {
+    margin: auto;
+    max-width: 1000px;
+}
+.textoHomeSete h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 5dvh;
+}
+
+.HomeSeteCardsFila {
+    display: flex;
+    flex-direction: row;
+}
+
+.HomeSeteCard1 {
+        background-color: #fff; /* Cor de fundo do card */
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 300px;
+        text-align: flex-start;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
+        0 8px 16px rgba(0, 0, 0, 0.2),
+        0 12px 24px #38F8D4;
+
+}
+
+
+
+.HomeSeteCardTitulo1 {
+    font-weight: 450;
+    font-size: auto;
+
+}
+
+.HomeSeteCardPreço1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.HomeSeteCardValor1{
+    font-size: auto;
+    font-weight: 500;
+}
+
+.HomeSeteCardMensalidade1 {
+    margin-top: 2vh;
+}
+
+.HomeSeteCardAno1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2vh;
+}
+
+.HomeSeteCard1Botão1 {
+    
+    font-weight: 520;
+    background-color: #38F8D4;
+    color: #080C1C;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    border-radius: 10vh;
+}
+
+.HomeSeteCard1Botão2{
+
+    font-weight: 520;
+    background-color: #080C1C;
+    color: #38F8D4;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    border-radius: 10vh;
+}
+
+.HomeSeteCard1Conteudo {
+    padding: 15px;
+}
+
+.HomeSeteCard1Conteudo2 {
+    padding: 15px;
+}
+
+.HomeSeteCard1Conteudo3 {
+    padding: 15px;
+}
+
+.HomeSeteCard1Conteudo4 {
+    padding: 15px;
+}
+
+.HomeSeteCard1ConteudoMaior{
+    font-weight: bold;
+}
+
+
+.HomeSeteCard1ConteudoMenor{
+    font-size: small;
+    color: #B7B7B7;
+}
+
+.HomeSeteCard1Contrate {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 3vh;
+
+}
+
+.HomeSeteCard1ContrateBotao {
+    background-color: #080C1C;
+    color: #38F8D4;
+    border: 2px solid #38F8D4;
+    padding: 10px;
+    border-radius: 10vh;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}

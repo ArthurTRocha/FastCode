@@ -1,0 +1,425 @@
+.homedois {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.homedoistitulocontainer {
+    text-align: center;
+  }
+  
+  .homedoistitulo {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* .homedoistitulo:before,
+  .homedoistitulo:after {
+    content: "";
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    height: 1.5px;
+    background: linear-gradient(to right, #43EA80, #38F8D4);
+  }
+  
+  .homedoistitulo:before {
+    right: 105%; 
+  }
+  
+  .homedoistitulo:after {
+    left: 105%; 
+  } */
+  
+  .homedoistitulo{
+    padding-top: 10vh;
+    margin-top: 5vh;
+    color: white;
+    text-align: center;
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+
+ .homedoisfila1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ .homedoiscardsfila1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .homedoiscard1{
+    background-color: #1F3A49; /* Cor preta */
+  color: #fff; /* Cor do texto, pode ser branca ou outra que tenha bom contraste com o preto */
+  padding: 30px; /* Espaçamento interno para o conteúdo dentro do card */
+  border-radius: 10px; /* Borda arredondada, ajuste conforme necessário */
+  text-align: center; /* Centraliza o conteúdo */
+  /* margin-left: 13vw; */
+  margin-top: 10vh;
+  max-height: 70%;
+  border-right: 1.5vh solid #38F8D4;
+  border-bottom: 1.5vh solid #38F8D4;
+  position: relative;
+ }
+
+ .homedoiscard1::after {
+   content: "/"; /* Adiciona conteúdo ao pseudoelemento */
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: -30px;
+   width: 3.5rem;
+   height: 3.5rem;
+   background: linear-gradient(to bottom right, #43EA80, #38F8D4);
+   clip-path: polygon(15% 0%, 85% 0%, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0% 85%, 0% 15%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #000;
+   font-weight: bold;
+   font-size: 5ch;
+}
+
+ .homedoiscard1titulo{
+    color: #80FAFF;
+    text-align: start;
+    padding-bottom: 1vh;
+    font-weight: bold;
+ }
+
+
+ .homedoiscard2{
+    background-color: #1F3A49; /* Cor preta */
+  color: #fff; /* Cor do texto, pode ser branca ou outra que tenha bom contraste com o preto */
+  padding: 30px; /* Espaçamento interno para o conteúdo dentro do card */
+  border-radius: 10px; /* Borda arredondada, ajuste conforme necessário */
+  text-align: center; /* Centraliza o conteúdo */
+  /* margin-left: 13vw; */
+  margin-top: 4vh;
+  max-height: 70%;
+  border-right: 1.5vh solid #38F8D4;
+  border-bottom: 1.5vh solid #38F8D4;
+  position: relative;
+ }
+ .homedoiscard2::after {
+   content: ">"; /* Adiciona conteúdo ao pseudoelemento */
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: -30px;
+   width: 3.5rem;
+   height: 3.5rem;
+   background: linear-gradient(to bottom right, #43EA80, #38F8D4);
+   clip-path: polygon(15% 0%, 85% 0%, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0% 85%, 0% 15%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #000;
+   font-weight: bold;
+   font-size: 5ch;
+}
+ .homedoiscard2titulo{
+    color: #80FAFF;
+    text-align: start;
+    padding-bottom: 1vh;
+    font-weight: bold;
+ }
+
+ .homedoisimagem3 img {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+ }
+ .homedoisimagem3 {
+   max-width: 40%;
+ }
+
+ .homedoisimagem1,
+ .homedoisimagem3{
+    margin-top: 5vh;
+    object-fit: cover;
+    width: auto;
+  height: auto;
+ }
+.homedoisimagem1 img{
+   object-fit: cover;
+   height: auto;
+   width: 100%;
+}
+.homedoisimagem1 {
+   max-width: 40%;
+}
+
+ .homedoisfila2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ .homedoiscardsfila2{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 10vh; */
+    align-items: center;
+ }
+
+ .homedoiscard3titulo{
+    color: #80FAFF;
+    text-align: start;
+    padding-bottom: 1vh;
+    font-weight: bold;
+ }
+
+
+ .homedoiscard3{
+    background-color: #1F3A49; /* Cor preta */
+  color: #fff; /* Cor do texto, pode ser branca ou outra que tenha bom contraste com o preto */
+  padding: 30px; /* Espaçamento interno para o conteúdo dentro do card */
+  border-radius: 10px; /* Borda arredondada, ajuste conforme necessário */
+  text-align: center; /* Centraliza o conteúdo */
+  max-height: 70%;
+  border-right: 1.5vh solid #38F8D4;
+  border-bottom: 1.5vh solid #38F8D4;
+  margin-top: 10vh;
+  position: relative;
+ }
+ .homedoiscard3::after {
+   content: "<"; /* Adiciona conteúdo ao pseudoelemento */
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: -30px;
+   width: 3.5rem;
+   height: 3.5rem;
+   background: linear-gradient(to bottom right, #43EA80, #38F8D4);
+   clip-path: polygon(15% 0%, 85% 0%, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0% 85%, 0% 15%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #000;
+   font-weight: bold;
+   font-size: 5ch;
+}
+
+ .homedoiscard3titulo{
+    color: #80FAFF;
+    text-align: start;
+    padding-bottom: 1vh;
+    font-weight: bold;
+ }
+
+
+ 
+ .homedoiscard4titulo{
+    color: #80FAFF;
+    text-align: start;
+    padding-bottom: 1vh;
+    font-weight: bold;
+ }
+
+
+ .homedoiscard4{
+    background-color: #1F3A49; /* Cor preta */
+  color: #fff; /* Cor do texto, pode ser branca ou outra que tenha bom contraste com o preto */
+  padding: 30px; /* Espaçamento interno para o conteúdo dentro do card */
+  border-radius: 10px; /* Borda arredondada, ajuste conforme necessário */
+  text-align: center; /* Centraliza o conteúdo */
+  /* margin-left: 13vw; */
+  margin-top: 4vh;
+  max-height: 70%;
+  border-right: 1.5vh solid #38F8D4;
+  border-bottom: 1.5vh solid #38F8D4;
+  position: relative;
+ }
+ .homedoiscard4::after {
+   content: "+"; /* Adiciona conteúdo ao pseudoelemento */
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: -30px;
+   width: 3.5rem;
+   height: 3.5rem;
+   background: linear-gradient(to bottom right, #43EA80, #38F8D4);
+   clip-path: polygon(15% 0%, 85% 0%, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0% 85%, 0% 15%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #000;
+   font-weight: bold;
+   font-size: 5ch;
+}
+ .homedoiscard4titulo{
+    color: #80FAFF;
+    text-align: start;
+    padding-bottom: 1vh;
+    font-weight: bold;
+ }
+
+ .homedoisimagem2{
+    margin-top: 10vh;
+    
+ }
+ .homedoisimagem2 IMG {
+   object-fit: cover;
+   height: auto;
+   width: 100%;
+ }
+ .homedoisimagem2 {
+   max-width: 40%;
+ }
+
+
+ .homedoisfila3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ .homedoiscardsfila3{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 10vh; */
+    align-items: center;
+ }
+
+ .homedoiscard5titulo{
+    color: #80FAFF;
+    text-align: start;
+    padding-bottom: 1vh;
+    font-weight: bold;
+ }
+
+
+ .homedoiscard5{
+    background-color: #1F3A49; /* Cor preta */
+  color: #fff; /* Cor do texto, pode ser branca ou outra que tenha bom contraste com o preto */
+  padding: 30px; /* Espaçamento interno para o conteúdo dentro do card */
+  border-radius: 10px; /* Borda arredondada, ajuste conforme necessário */
+  text-align: center; /* Centraliza o conteúdo */
+   /* margin-left: 13vw; */
+  margin-top: 10vh;
+  max-height: 70%;
+  border-right: 1.5vh solid #38F8D4;
+  border-bottom: 1.5vh solid #38F8D4;
+  position: relative;
+ }
+ .homedoiscard5::after {
+   content: "-"; /* Adiciona conteúdo ao pseudoelemento */
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: -30px;
+   width: 3.5rem;
+   height: 3.5rem;
+   background: linear-gradient(to bottom right, #43EA80, #38F8D4);
+   clip-path: polygon(15% 0%, 85% 0%, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0% 85%, 0% 15%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #000;
+   font-weight: bold;
+   font-size: 5ch;
+}
+
+ .homedoiscard5titulo{
+    color: #80FAFF;
+    text-align: start;
+    padding-bottom: 1vh;
+    font-weight: bold;
+ }
+
+
+
+ .homedoiscard6{
+    background-color: #1F3A49; /* Cor preta */
+  color: #fff; /* Cor do texto, pode ser branca ou outra que tenha bom contraste com o preto */
+  padding: 30px; /* Espaçamento interno para o conteúdo dentro do card */
+  border-radius: 10px; /* Borda arredondada, ajuste conforme necessário */
+  text-align: center; /* Centraliza o conteúdo */
+  /* margin-left: 13vw; */
+  margin-top: 4vh;
+  max-height: 70%;
+  width: auto;
+  border-right: 1.5vh solid #38F8D4;
+  border-bottom: 1.5vh solid #38F8D4;
+  position: relative;
+ }
+ .homedoiscard6::after {
+   content: "\\"; /* Adiciona conteúdo ao pseudoelemento */
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   left: -30px;
+   width: 3.5rem;
+   height: 3.5rem;
+   background: linear-gradient(to bottom right, #43EA80, #38F8D4);
+   clip-path: polygon(15% 0%, 85% 0%, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0% 85%, 0% 15%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #000;
+   font-weight: bold;
+   font-size: 5ch;
+}
+ .homedoiscard6titulo{
+   color: #80FAFF;
+   text-align: start;
+   padding-bottom: 1vh;
+   font-weight: bold;
+}
+
+
+.homedoiscard1:hover,
+.homedoiscard2:hover,
+.homedoiscard3:hover,
+.homedoiscard4:hover,
+.homedoiscard5:hover,
+.homedoiscard6:hover {
+   transform: scale(1.1); /* Aumenta a escala em 10% no hover */
+
+}
+
+  
+ 
+
+
+@media screen and (max-width: 768px) {
+
+
+
+   .homedoisfila1,
+.homedoisfila3{
+   display: flex;
+   flex-direction: column-reverse;
+}
+
+.homedoisfila2
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.homedoisimagem1,
+.homedoisimagem2,
+.homedoisimagem3{
+   align-self: center;
+}
+   
+}
+
+@media screen and (max-width:459px) {
+   .homedoiscard1::after,
+   .homedoiscard2::after,
+   .homedoiscard3::after,
+   .homedoiscard4::after,
+   .homedoiscard5::after,
+   .homedoiscard6::after {
+      display: none;
+   }
+}

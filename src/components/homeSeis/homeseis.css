@@ -1,0 +1,7 @@
+.homeseis {
+    margin: auto;
+    max-width: 90%; /* Ou qualquer outra porcentagem desejada */
+    border-bottom: 0.7dvh solid #38F8D4;
+    border-top: 0.7dvh solid #38F8D4;
+    min-height: 50px;
+}

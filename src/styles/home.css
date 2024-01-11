@@ -1,0 +1,28 @@
+.home {
+    background-color: #080C1C;
+}
+.header {
+    display: block;
+}
+.headerMobile {
+    display: none;
+}
+@media screen and (max-width: 768px) { 
+    .header {
+        display: none;
+    }
+    .headerMobile {
+        display: block;
+    }
+}
+@media screen and (max-width: 200px) { 
+.homeoitoo {
+    display: none;
+}
+}
+@media screen and (max-width: 130px) { 
+    .homedoiss {
+        display: none;
+    }
+    }
+

@@ -1,0 +1,128 @@
+.Servicosquatro {
+    padding-top: 80px;
+    margin: auto;
+    max-width: 1300px;
+}
+
+.ServicosquatroTitulo {
+color: #ddd;
+font-size: 3ch;
+text-shadow: -15px 5px 4px #38F8D4;
+
+}
+
+.ServicosTituloeBarra {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-left: 3ch;
+}
+
+.ServicosquatroBarraTitulo {
+border: 1px solid #43EA80;
+border-radius: 8px;
+margin: 10px;
+width: 100ch;
+height: 1ch;
+text-align: center;
+background-color: transparent;
+}
+
+.ServicosquatroDescricao {
+color: #fff;
+display: flex;
+justify-content: center;
+margin-left: 8dvw;
+max-width: 120ch;
+padding-top: 5ch;
+padding-bottom: 10ch;
+text-shadow: -15px 5px 4px #38F8D4;
+
+}
+.cadsPocionarServicosquatro {
+margin-bottom: 200px;
+}
+.cardsServicosquatro {
+display: grid;
+grid-template-columns: repeat(3, 1fr); 
+gap: 0; 
+width: 100%;
+color: #fff;
+}
+.cardsServicosquatro p {
+padding: 20px;
+}
+.card1Servicoquatro {
+display: flex;
+width: 70%;
+border-right: 1vh solid #43EA80;
+border-radius: 5vh;
+position: relative;
+}
+
+.card1Servicoquatro::before {
+content: "";
+position: absolute;
+top: 0.08vh; 
+right: 1.4dvw;
+width: 10%;
+height: 0.2vh; /* Ajusta a altura da borda */
+background-color: #43EA80;
+}
+
+.IoMdInformationCircleOutline {
+font-size: 8ch;
+}
+.card2Servicoquatro {
+display: flex;
+width: 70%;
+border-top: 1vh solid #43EA80;
+border-bottom: 1vh solid #43EA80;
+border-right: 1vh solid #43EA80;
+border-radius: 2vh;
+box-shadow: 5px 50px 5px 3px #43EA80;
+}
+
+.card3Servicoquatro {
+display: flex;
+width: 70%;
+border-top: 1vh solid #43EA80;
+border-bottom: 1vh solid #43EA80;
+border-right: 1vh solid #43EA80;
+border-radius: 2vh;
+}
+.buttonOrcamentoServicoquatroPai {
+position: relative;
+}
+.buttonOrcamentoServicoquatro button {
+background: linear-gradient(to right, #43EA80, #38F8D4);
+border: none;
+border-radius: 5vh;
+font-size: 4ch;
+font-weight: bold;
+padding: 0.3dvw 2dvw 0.3dvh 2dvw;
+position: absolute;
+right: 8dvw;
+bottom: 50px;
+cursor: pointer;
+}
+.buttonOrcamentoServicoquatro button:hover { 
+transform: scale(1.1); 
+}
+.carouselCardsServicosquatro {
+display: none;
+}
+
+@media screen and (max-width:768px) {
+.carouselCardsServicosquatro {
+    display: block;
+}
+.cadsPocionarServicosquatro {
+    display: none;
+}
+.carouselCardsServicosquatro {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+}

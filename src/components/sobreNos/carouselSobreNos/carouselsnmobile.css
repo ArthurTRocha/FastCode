@@ -1,0 +1,12 @@
+.carouselSNMobile h3{
+    text-align: center;
+    color: #43EA80;
+}
+.carousel-itemSN img{
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    }
